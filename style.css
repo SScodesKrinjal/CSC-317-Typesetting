@@ -41,7 +41,16 @@ footer {
 header, section, aside, nav, footer {
   padding: 20px;
 }
-
+/* External Links Styling */
+a[href^="http"]::after {
+    content: url('external-link-52.png');  /* Inserts the external link icon */
+    display: inline-block;
+    width: 12px; /* Adjust size */
+    height: 12px;
+    margin-left: 5px;
+    vertical-align: middle;
+  }
+  
 /* Header and Footer */
 
 header, footer {
