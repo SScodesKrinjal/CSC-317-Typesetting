@@ -42,11 +42,12 @@ header, section, aside, nav, footer {
   padding: 20px;
 }
 /* External Links Styling */
+
 a[href^="http"]::after {
-    content: url('external-link-52.png');  /* Inserts the external link icon */
+    content: url('external-link-52.png'); 
     display: inline-block;
-    width: 12px; /* Adjust size */
-    height: 12px;
+    width: 10px; 
+    height: 8px;
     margin-left: 5px;
     vertical-align: middle;
   }
