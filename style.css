@@ -125,11 +125,12 @@ a:active {
 /* External Links */
 a[href^="http"]::after {
   content: url('external-link-52.png');
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  margin-left: 2px;
-  vertical-align: text-bottom;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
   opacity: 0.8;
 }
 
