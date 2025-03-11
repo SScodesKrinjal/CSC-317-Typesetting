@@ -132,12 +132,6 @@ a:active {
   color: #e74c3c;
 }
 
-/* External Links */
-a[href^="http"]::after {
-  content: url('external-link-52.png');
-  margin-left: 5px;
-}
-
 /* Footer */
 footer {
   text-align: center;
