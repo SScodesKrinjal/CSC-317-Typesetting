@@ -46,9 +46,9 @@ header, section, aside, nav, footer {
 a[href^="http"]::after {
     content: url('external-link-52.png'); 
     display: inline-block;
-    width: 10px; 
-    height: 8px;
-    margin-left: 5px;
+    width: 5px; 
+    height: 3px;
+    margin-left: 3px;
     vertical-align: middle;
   }
   
