@@ -123,13 +123,17 @@ a:active {
 }
 
 /* External Links */
+a[href^="http"] {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
 a[href^="http"]::after {
   content: url('external-link-52.png');
   display: inline-block;
   width: 16px;
   height: 16px;
-  margin-left: 2px;
-  vertical-align: middle;
   opacity: 0.8;
 }
 /* Footer */
