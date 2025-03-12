@@ -134,6 +134,9 @@ a[href^="http"]::after {
   width: 16px;
   height: 16px;
   opacity: 0.8;
+  margin-left: 2px;
+  display: inline-block;
+  vertical-align: baseline;
 }
 /* Footer */
 footer {
